@@ -59,17 +59,18 @@ li {
 
 .container {
   width: 85%;
-  margin: 3rem auto 0;
+  margin: 5rem auto 0;
 }
 
 @media screen and (max-width: 420px) {
   .container {
     width: 100%;
+    margin: 3rem auto 0;
   }
 }
 
 .container2 {
-  margin: 3rem 0 0;
+  margin: 6rem 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,6 +83,7 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 3rem auto 0;
   }
 }
 

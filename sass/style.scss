@@ -56,20 +56,22 @@ li {
 
 .container {
     width: 85%;
-    margin: 3rem auto 0;
+    margin: 5rem auto 0;
 
     @include phone {
         width: 100%;
+        margin: 3rem auto 0;
     }
 }
 
 .container2 {
-   margin: 3rem 0 0;
+   margin: 6rem 0 0;
    display: flex;
    gap: 5rem;
 
    @include phone {
        flex-direction: column;
+       margin: 3rem auto 0;
    }
 }
 
