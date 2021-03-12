@@ -1,0 +1,237 @@
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  background: url(/images/bg-desktop.svg);
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background: url(/images/bg-mobile.svg);
+    background-color: #674baf;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fab {
+  font-size: 1.4rem;
+  border: 0.1rem solid #fff;
+  padding: 1.2rem;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .fab {
+    font-size: 1rem;
+    padding: .6rem;
+  }
+}
+
+.fab:active {
+  border: 0.1rem solid #e882e8;
+}
+
+.container {
+  width: 85%;
+  margin: 3rem auto 0;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.container2 {
+  margin: 3rem 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 375px) {
+  .container2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+h1 {
+  font-size: 3.8rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+p {
+  font-size: 1.4rem;
+  opacity: 80%;
+}
+
+@media screen and (max-width: 375px) {
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+button {
+  font-size: 1.8rem;
+  padding: 1.5rem 6rem;
+  border-radius: 5rem;
+  border: none;
+  color: #674baf;
+  outline: none;
+  -webkit-box-shadow: 0.3rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0.3rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.15);
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  button {
+    font-size: 1.1rem;
+    padding: 1rem 6rem;
+  }
+}
+
+button:active {
+  background: #e882e8;
+}
+
+button:active a {
+  color: #fff;
+}
+
+.logo__box {
+  height: 5rem;
+  width: 10rem;
+}
+
+@media screen and (max-width: 375px) {
+  .logo__box {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+.logo__box svg {
+  height: 100%;
+  width: auto;
+}
+
+@media screen and (max-width: 375px) {
+  .logo__box svg {
+    width: 12rem;
+    height: auto;
+  }
+}
+
+.mockup__box {
+  height: 50rem;
+  width: 60%;
+}
+
+@media screen and (max-width: 375px) {
+  .mockup__box {
+    width: 85%;
+    margin: 0 auto;
+    height: unset;
+  }
+}
+
+.mockup__box img {
+  width: 100%;
+  height: 50rem;
+}
+
+@media screen and (max-width: 375px) {
+  .mockup__box img {
+    height: unset;
+  }
+}
+
+.text__box {
+  margin-top: 2rem;
+  width: 40%;
+}
+
+@media screen and (max-width: 375px) {
+  .text__box {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.social--links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (max-width: 375px) {
+  .social--links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6rem;
+    margin-left: -3rem;
+  }
+}
+
+.social--links a {
+  color: #fff;
+}
+
+.social--links a:active {
+  color: #e882e8;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
